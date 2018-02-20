@@ -35,7 +35,7 @@ function ball(x,y,width,height)
 
 function generateRandomballs()
 {
-    speedup += highscore/2;
+    speedup += highscore/6;
     randomballs = [];
     for(var i = 0 ; i < totalnumberofRandomBall ; i++)
     {
