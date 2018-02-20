@@ -89,7 +89,7 @@ function draw()
     {
       noLoop();
       alert('game over');
-      location.reload();
+      window.location.reload()
       console.log('reload');
     }
     randomballs[i].x = randomballs[i].x - randomballs[i].velX;
