@@ -89,6 +89,7 @@ function draw()
     {
       noLoop();
       alert('game over');
+      location.reload();   
     }
     randomballs[i].x = randomballs[i].x - randomballs[i].velX;
     fill(randomballs[i].r,randomballs[i].g,randomballs[i].b);
